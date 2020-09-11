@@ -9,5 +9,8 @@
 
 T = int(input())
 for i in range(T):
-    N = str(input())
-    L = str(input())
+    N = input()
+    M = input()
+    res = 0
+    for j in range(len(M - len(str1) + 1)):
+        
