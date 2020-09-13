@@ -21,5 +21,7 @@ for i in range(T):
         if m == N:                      # 입력 N의 스트링 값과 값이 일치하면
             count +=1                   # count 증감
     print("#%d %d" %(i+1,count))
+
+    
     
 
