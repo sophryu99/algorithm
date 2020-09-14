@@ -18,21 +18,36 @@ for i in range(T):
     N, M = map(int,input().split())
     horizontal_res = []                        
     for n in range(N):
-        lst_h = input()                         # 1. 가로 먼저 탐색
-        result_h = []                           # 입력받는 리스트 N에서 M개의 길이인 스트링값 저장하는 변수
+        lst_h = input()                             # 1. 가로 먼저 탐색
+        result_h = []                               # 입력받는 리스트 N에서 M개의 길이인 스트링값 저장하는 변수
         for m in range(len(lst_h)):
-            result_h.append(lst_h[m:m+M])       # 입력받는 리스트 범위 내에서 M의 길이만큼의 배열을 result_h에 저장한다
+            result_h.append(lst_h[m:m+M])           # 입력받는 리스트 범위 내에서 M의 길이만큼의 배열을 result_h에 저장한다
         for r in result_h:
-            if len(r) == M:                     # result_h에서 길이가 M이고
-                if r == r[::-1]:                # 뒤집었을 때 원래의 값과 같은 값에 한해서
-                    horizontal_res.append(r)    # horizontal_res에 저장해준다.
+            if len(r) == M:                         # result_h에서 길이가 M이고
+                if r == r[::-1]:                    # 뒤집었을 때 원래의 값과 같은 값에 한해서
+                    horizontal_res.append(r)        # horizontal_res에 저장해준다.
+    print(horizontal_res)
     
-    vertical_res = []                           # 2. 세로 탐색 시작
-    vertical_list = []                          # N번 입력 리스트를 받으며 새로 생성하는 리스트 변수
-    for x in range(N):
-        lst_v = input()
-        vertical_list.append(lst_v[x])
-    
+    vertical_list = []                              # 2. 세로 탐색 시작
+    for x in range(N):                              # N * N 배열 안에서 
+        lst_v = list(map(str,input()))              # N번 리스트 입력 값을 받고
+        vertical_list.append(lst_v)                 # 새로운 변수에 해당 입력 값을 저장해준 후
+    temp = [list(x) for x in zip(*vertical_list)]   # 전치 시켜준다 (행과 열을 반전 시켜준다)
+
+    transposed = []                             
+    for j in temp:
+        transposed.append(''.join(j))               # 전치 시켜준 각 행을 join 시켜서 transposed 리스트에 저장
+
+    temp_result = []
+    vertical_res = []
+    for t in transposed:                            # transposed 리스트 내의 element 값을 탐색하며 
+        for m2 in range(len(t)):
+            temp_result.append(t[m2:m2+M])          # temp_result에 저장해준다
+        for r2 in temp_result:
+                if len(r2) == M:                    # temp_result에 길이가 M이고
+                    if r2 == r2[::-1]:              # 뒤집었을 때 원래의 값과 같은 값에 한해서
+                        vertical_res.append(r2)     # vertical_res에 저장해준다.
+    print(vertical_res)
 
 
 
