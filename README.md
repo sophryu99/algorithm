@@ -1,7 +1,37 @@
 # algorithm
-> 1.5day 1algorithm self study repository
+> algorithm self study repository - python
+>
+> Code explanation in Korean
 
 
+
+#### List
+
+- [4828_minmax.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4828_minmax.py)
+- [4834_number-card.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4834_숫자카드.py)
+- [4836_coloring.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4836_색칠하기.py)
+- [4837_sumofsubsets.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4837_부분집합의합.py)
+- [4839_binary-search.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4839_이진탐색.py)
+- [4843_specialAlignment.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4843_특별한정렬.py)
+
+
+
+#### String
+
+- [4861_palindrome.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/String_4861_palindrome.py)
+- [4864_stringComparison.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/String_4864_문자열비교.py)
+- [4865_number-of-letters.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/String_4865_글자수.py)
+- [middle_letter.py](https://github.com/sophryu99/algorithm/blob/master/Programmers/middle_letter.py)
+
+
+
+#### Stack
+
+- [10828_stack.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/10828_stack.py)
+
+
+
+## Check-in
 
 | Date | Code                                                         | Explanation |
 | ---- | ------------------------------------------------------------ | ----------- |
