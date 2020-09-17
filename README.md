@@ -5,16 +5,13 @@
 
 
 
-#### List
+### Docs
 
-- [4828_minmax.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4828_minmax.py)
-- [4834_number-card.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4834_숫자카드.py)
-- [4836_coloring.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4836_색칠하기.py)
-- [4837_sumofsubsets.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4837_부분집합의합.py)
-- [4839_binary-search.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4839_이진탐색.py)
-- [4843_specialAlignment.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4843_특별한정렬.py)
+- [Stack.md](https://github.com/sophryu99/algorithm/blob/master/Readme/Stack.md)
 
 
+
+### Codes
 
 #### String
 
@@ -28,8 +25,22 @@
 #### Stack
 
 - [10828_stack.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/10828_stack.py)
+- [4866_parenthesis.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4866_괄호검사.py)
 
 
+
+#### List
+
+- [4828_minmax.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4828_minmax.py)
+- [4834_number-card.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4834_숫자카드.py)
+- [4836_coloring.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4836_색칠하기.py)
+- [4837_sumofsubsets.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4837_부분집합의합.py)
+- [4839_binary-search.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4839_이진탐색.py)
+- [4843_specialAlignment.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4843_특별한정렬.py)
+
+
+
+#### 
 
 ## Check-in
 

@@ -34,3 +34,38 @@ def pop():
 
 
 
+### Memoization
+
+- 이전에 계산한 값을 메모리에 저장해서 매번 다시 계산하지 않도록 하여 전체적인 실행속도를 빠르게 하는 기술
+- <u>Dynamic programming</u>의 핵심이 됨
+
+
+
+```python
+def fibo1(n):
+  global memo
+  if n >=2 and len(memo) <= n:
+    memo.append(fibo1(n-1) + fibo1(n-2))
+  return memo[n]
+
+memo[0,1]
+```
+
+
+
+### Dynamic Programming
+
+- 최적화 문제를 해결하는 알고리즘
+
+1. recursive method: fibo1()
+2. iterative method: fibo2()
+
+
+
+### DFS (Depth First Search)
+
+- 시작 정점의 한 방향으로 갈 수 있는 경로까지 깊이 탐색
+- 더 이상 갈 곳이 없게되면 가장 마지막에 만났던 갈림길 간선이 있던 곳으로 되돌아옴
+- 다른 방향의 정점을 탐색하여 모든 정점 방문하며 순회
+- 가장 마지막에 만났던 갈림길의 정점으로 되돌아가서 다시 깊이우선 탐색을 반복해야함으로 후입선출 구조의 스택을 사용한다
+
