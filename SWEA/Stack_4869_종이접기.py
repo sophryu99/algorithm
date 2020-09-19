@@ -11,3 +11,7 @@
 
 # 접근: 
 
+T = int(input())
+for i in range(T):
+    lst = []
+    N = int(input())
