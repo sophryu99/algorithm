@@ -7,11 +7,18 @@
 # [출력]
 # 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤, 답을 출력한다.
 
-""" ---------- 내 풀이 () ---------- """
+""" ---------- 내 풀이 (답안 참고) ---------- """
 
-# 접근: 
+# 접근: 규칙성을 정의하는 '점화식'을 사용한다. Dynamic Programming의 예시
+
+def dp(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 3
+    return dp(n - 1) + 2 * (dp(n - 2))
 
 T = int(input())
 for i in range(T):
-    lst = []
     N = int(input())
+    print('#' + str(i + 1) + ' ' + str(dp(n//10)))
