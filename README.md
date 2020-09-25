@@ -8,6 +8,7 @@
 ### Docs
 
 - [Stack.md](https://github.com/sophryu99/algorithm/blob/master/Readme/Stack.md)
+  - [DFS.md](https://github.com/sophryu99/algorithm/blob/master/Readme/DFS.md)
 
 
 
@@ -24,6 +25,8 @@
 - **Stack**
   - [10828_stack.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/10828_stack.py)
   - [4866_parenthesis.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4866_괄호검사.py)
+  - [4871_graphTraverse.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4871_그래프경로.py)
+  - [4873_deleteDuplicates.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4873_반복문자지우기.py)
 
 
 
@@ -57,7 +60,8 @@
 | 9/15 | Programmers | [middle_letter.py](https://github.com/sophryu99/algorithm/blob/master/Programmers/middle_letter.py) | `String` |                                  |                                   |
 | 9/16 | SWEA        | [4866_괄호검사.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4866_괄호검사.py) | `Stack`  |                                  | [🌟](https://sophuu.tistory.com/6) |
 | 9/17 | SWEA        | [4869_종이접기.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4869_종이접기.py) | `Stack`  | `Dynamic Programming` `sequence` |                                   |
-|      |             |                                                              |          |                                  |                                   |
+| 9/20 | SWEA        | [4873_반복문자지우기.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4873_반복문자지우기.py) | `Stack`  |                                  |                                   |
+| 9/22 | SWEA        | [4871_그래프경로.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4871_그래프경로.py) | `Stack`  | `DFS`                            |                                   |
 
 
 
