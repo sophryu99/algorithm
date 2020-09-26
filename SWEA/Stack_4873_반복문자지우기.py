@@ -10,12 +10,22 @@
 # CAA 연속 문자 AA를 지운다.
 # C 1글자가 남았으므로 1을 리턴한다.
 
+
 """ ---------- 내 풀이 () ---------- """
 
-stack = "ABCCB"
-stack2 = []
-for i in range(len(stack)):
-    stack2.append(stack[i])
-    for j in stack2:
-        
+# 접근: 스트링의 값들을 stack에 순서대로 append 해준 후 스택의 가장 상위 부분에 같은 스트링 값이 있는 경우는 pop 해준다.
+
+T = int(input())
+for i in range(T):
+    lst = input()
+    stack = []
+    for l in range(len(lst)):
+        if len(stack) == 0:                       # stack이 비어있을 때는 입력 값을 append 해준다
+            stack.append(lst[l])
+        elif stack[-1] != lst[l]:                 # stack의 가장 위의 스트링 값이 입력 값과 같지 않을 때
+            stack.append(lst[l])                  # 입력 값을 스택에 append 해준다
+        elif stack[-1] == lst[l]:                 # stack의 가장 위의 스트링 값이 입력 값과 일치 할 때
+            stack.pop()                           # 해당 값을 stack에서 제거해준다.
+    print('#{} {}'.format(i+1, len(stack)))
+
     
