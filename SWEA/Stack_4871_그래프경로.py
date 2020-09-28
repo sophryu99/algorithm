@@ -14,3 +14,31 @@
 # 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤, 답을 출력한다.
 
 
+""" ---------- 내 풀이 () ---------- """
+
+# 접근: 노드 값들을 각각 딕셔너리에 저장해준다. 출발 노드와 마지막 노드를 입력 값으로 받고 출발 노드에서 이어지는 노드를 깊이 우선 탐색으로 탐색하고 마지막 노드와 일치하면 1 리턴
+
+def dfs(start, end):
+    for j in range(len(lst)):
+        # print(lst[j][0])
+        # print('start', start)
+        temp = 0
+        if lst[j][0] == start:
+            #print('yes', lst[j][0])
+            temp = lst[j][1]
+            dfs(temp, end)
+        else:
+            print('no')
+        print('new start', temp)
+
+
+T = int(input())
+for i in range(T):
+    V, E = map(int,input().split())                     # 노드 갯수와 간선 갯수와 입력 받기
+    lst = []
+    for e in range(E):
+        nodes = list(map(int, input().split()))         # lst에 [] 형식으로 노드 저장하기
+        lst.append(nodes)
+    start, end = map(int, input().split())              # start, end 입력값 받기
+    dfs(start, end)
+    
