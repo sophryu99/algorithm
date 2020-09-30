@@ -20,16 +20,17 @@
 
 def dfs(start, end):
     for j in range(len(lst)):
-        # print(lst[j][0])
-        # print('start', start)
         temp = 0
-        if lst[j][0] == start:
-            #print('yes', lst[j][0])
-            temp = lst[j][1]
-            dfs(temp, end)
-        else:
-            print('no')
-        print('new start', temp)
+        result = 0
+        if lst[j][0] == start:                          # 리스트의 시작 노드가 start와 일치하면
+            temp = lst[j][1]                            # 시작 변수 재설정
+            if lst[j][1] == end:
+                result = 1
+                print('success', lst[j][1])
+                break
+            else:
+                dfs(temp, end)
+            print(result)
 
 
 T = int(input())
@@ -40,5 +41,5 @@ for i in range(T):
         nodes = list(map(int, input().split()))         # lst에 [] 형식으로 노드 저장하기
         lst.append(nodes)
     start, end = map(int, input().split())              # start, end 입력값 받기
-    dfs(start, end)
+    print(dfs(start, end))
     
