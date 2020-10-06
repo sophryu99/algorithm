@@ -27,6 +27,7 @@
   - [4866_parenthesis.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4866_괄호검사.py)
   - [4871_graphTraverse.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4871_그래프경로.py)
   - [4873_deleteDuplicates.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4873_반복문자지우기.py)
+  - [4874_forth.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4874_forth.py)
 
 
 
@@ -62,6 +63,9 @@
 | 9/17 | SWEA        | [4869_종이접기.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4869_종이접기.py) | `Stack`  | `Dynamic Programming` `sequence` |                                   |
 | 9/20 | SWEA        | [4873_반복문자지우기.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4873_반복문자지우기.py) | `Stack`  |                                  |                                   |
 | 9/22 | SWEA        | [4871_그래프경로.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4871_그래프경로.py) | `Stack`  | `DFS`                            |                                   |
+| 9/24 | SWEA        | [4874_forth.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/Stack_4874_forth.py) | `Stack`  |                                  | Ing                               |
+| 10/5 | BOJ         | [1316_그룹단어체커.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/1316_그룹단어체커.py) |          |                                  |                                   |
+|      |             |                                                              |          |                                  |                                   |
 
 
 
