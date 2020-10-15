@@ -10,6 +10,7 @@
 
 # 접근: N까지의 배열 생성 후 K, K + K 인덱스 자리의 요소들을 pop 해주고 K+K가 배열 길이를 벗어나면 인덱스를 리셋해준다.
 
+
 N, K = map(int, input().split())
 lst = []
 popped = []
