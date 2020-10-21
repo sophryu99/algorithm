@@ -36,7 +36,7 @@
 
 
 
-- List**
+- **List**
   - [4828_minmax.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4828_minmax.py)
   - [4834_number-card.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List1_4834_숫자카드.py)
   - [4836_coloring.py](https://github.com/sophryu99/algorithm/blob/master/SWEA/List2_4836_색칠하기.py)
@@ -72,7 +72,7 @@
 | 10/3  | BOJ         | [1316_그룹단어체커.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/1316_그룹단어체커.py) | `Stack`  |                                  |                                    |
 | 10/4  | BOJ         | [2164_card2.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/2164_card2.py) | `Stack`  | `Deque`                          | [🌟](https://sophuu.tistory.com/13) |
 | 10/5  | BOJ         | [10773_zero.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/10773_zero.py) | `Stack`  |                                  | [🌟](https://sophuu.tistory.com/12) |
-| 10/9  | BOJ         | [11866_요세푸스.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/11866_요세푸스.py) |          |                                  |                                    |
+| 10/9  | BOJ         | [11866_요세푸스.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/11866_요세푸스.py) | `Stack`  |                                  |                                    |
 | 10/15 | BOJ         | [1406_에디터.py](https://github.com/sophryu99/algorithm/blob/master/BaekJoon/1406_에디터.py) | `Stack`  |                                  | [🌟](https://sophuu.tistory.com/15) |
 
 
