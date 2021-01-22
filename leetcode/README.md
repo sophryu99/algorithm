@@ -10,3 +10,6 @@ parsed = list(word)
 print(parsed)
 OUTPUT: ["h", "a","h","a"]
 ```
+
+
+//
