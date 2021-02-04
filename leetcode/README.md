@@ -1,4 +1,4 @@
-## Python basics
+## Basics
 
 ### Strings
 
@@ -45,4 +45,23 @@ seqList = [1, 2, 4, 3, 5]
 print(list(reversed(seqList))) 
 >>> [5, 3, 4, 2, 1]
 
+```
+
+### Hash
+```python3
+# Declaring hash table
+hash_table = defaultdict(int)
+```
+
+```python3
+# Incrementing count of certain key in hash table
+for i in nums:                          
+    hash_table[i] +=1                   
+```
+
+### Recursion
+```python3
+# Calling recursive function twice
+return self.isSameTree(p.right, q.right) and \
+    self.isSameTree(p.left, q.left)
 ```
