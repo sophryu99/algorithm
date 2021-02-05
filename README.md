@@ -17,7 +17,12 @@
 | 1/24 | [860_lemonade_change.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/860_lemonade_change.py) | `greedy`              |      |
 | 1/25 | [118_pascals_triangle.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/118_pascals_triangle.py) | `binary search`       |      |
 | 1/25 | [605_can_place_flowers.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/605_can_place_flowers.py) | `binary search`       |      |
-|      |                                                              |                       |      |
+| 1/26 | [441_arranging_coins.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/441_arranging_coins.py) | `binary search`       |      |
+| 1/26 | [744_smallest_letter_greater_than_target.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/744_smallest_letter_greater_than_target.py) | `binary search`       |      |
+| 2/1  | [111_minimum_depth_of_binary_tree.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/111_minimum_depth_of_binary_tree.py) | `bfs`                 |      |
+| 2/1  | [100_same_tree.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/100_same_tree.py) | `dfs`                 |      |
+| 2/2  | [136_single_number.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/136_single_number.py) | `hash table`          |      |
+| 2/3  | [217_contains_duplicate.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/217_contains_duplicate.py) | `hash table`          |      |
 |      |                                                              |                       |      |
 
 
