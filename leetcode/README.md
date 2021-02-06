@@ -47,6 +47,14 @@ print(list(reversed(seqList)))
 
 ```
 
+```python3
+# Return the index of a certain element in a list
+nums = [1,2,3,4,5]
+nums.index(1)
+>>> 0
+```
+
+
 ### Hash
 ```python3
 # Declaring hash table
