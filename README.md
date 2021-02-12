@@ -23,7 +23,18 @@
 | 2/1  | [100_same_tree.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/100_same_tree.py) | `dfs`                 |      |
 | 2/2  | [136_single_number.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/136_single_number.py) | `hash table`          |      |
 | 2/3  | [217_contains_duplicate.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/217_contains_duplicate.py) | `hash table`          |      |
-|      |                                                              |                       |      |
+| 2/4  | [349_intersection_of_two_array.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/349_intersection_of_two_array.py) | `binary search`       |      |
+| 2/5  | [69_sqrt_x.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/69_sqrt_x.py) | `binary search`       |      |
+| 2/7  | [704_binary_search.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/704_binary_search.py) | `binary search`       |      |
+| 2/8  | [455_assign_cookies.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/455_assign_cookies.py) | `binary search`       |      |
+| 2/9  | [202_happy_number.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/202_happy_number.py) | `hash table`          |      |
+| 2/10 | [167_two_sum_II.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/167_two_sum_II.py) | `binary search`       |      |
+| 2/10 | [104_maximum_depth_of_binary_tree.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/104_maximum_depth_of_binary_tree.py) | `bfs`                 |      |
+| 2/10 | [112_path_sum.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/112_path_sum.py) | `dfs`                 |      |
+| 2/11 | [367_valid_perfect_square.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/367_valid_perfect_square.py) | `binary search`       |      |
+| 2/11 | [404_sum_of_left_leaves.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/404_sum_of_left_leaves.py) | `bfs`                 |      |
+| 2/12 | [283_move_zeros.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/283_move_zeros.py) | `two pointers`        |      |
+| 2/12 | [344_reverse_string.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/344_reverse_string.py) | `two pointers`        |      |
 
 
 
