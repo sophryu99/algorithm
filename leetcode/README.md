@@ -54,6 +54,13 @@ nums.index(1)
 >>> 0
 ```
 
+```python3
+# Remove '' from each elements in list
+ans = ['1', '2', '-', '4', '5', '-', '7']
+print(" ".join(ans))
+>>> 1 2 - 4 5 - 7
+```
+
 
 ### Hash
 ```python3
