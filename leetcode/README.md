@@ -61,6 +61,17 @@ print(" ".join(ans))
 >>> 1 2 - 4 5 - 7
 ```
 
+```python3
+# receive input for N X N grid with integers
+maze = [list(map(int, list(input()))) for _ in range(4)]
+print(maze)
+>>> 1111
+>>> 2342
+>>> 3456
+>>> 2467
+>>> [[1, 1, 1, 1], [2, 3, 4, 2], [3, 4, 5, 6], [2, 4, 6, 7]]
+```
+
 
 ### Hash
 ```python3
