@@ -36,6 +36,19 @@
 | 2/11 | [404_sum_of_left_leaves.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/404_sum_of_left_leaves.py) | `bfs`                 |      |
 | 2/12 | [283_move_zeros.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/283_move_zeros.py) | `two pointers`        |      |
 | 2/12 | [344_reverse_string.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/344_reverse_string.py) | `two pointers`        |      |
+| 2/15 | [53_maximum_subarray.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/53_maximum_subarray.py) | `dynamic programming` |      |
+| 2/17 | [28_implement_strStr.py](https://github.com/sophryu99/algorithm/blob/master/leetcode/28_implement_strStr.py) | `two pointers`        |      |
+|      |                                                              |                       |      |
+
+
+
+## SWEA 
+
+| Date | Category | Problem | Level | Code | Blog |
+| ---- | -------- | ------- | ----- | ---- | ---- |
+|      | `DFS`    |         |       |      |      |
+|      |          |         |       |      |      |
+|      |          |         |       |      |      |
 
 
 
