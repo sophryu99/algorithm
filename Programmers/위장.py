@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42578
+
 from collections import defaultdict #1 
 
 def solution(clothes):
@@ -11,3 +13,5 @@ def solution(clothes):
         count = count * (i + 1)
     
     return (count - 1)	#3
+
+# 풀이: https://sophuu.tistory.com/62
