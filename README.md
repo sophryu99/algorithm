@@ -3,4 +3,8 @@
 
 Leetcode(Eng), BaekJoon(Kor), Programmers(Kor), SWEA (Kor) <br>
 4 Problems a week  <br>
-[Code Explanation (Kor)](https://sophuu.tistory.com/)
+
+[Problems Solved](https://www.notion.so/Algorithm-00d17421d8f0492287e483f6935e7893)
+
+[Code Explanation (Kor, Eng)](https://sophuu.tistory.com/)
+
