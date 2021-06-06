@@ -15,12 +15,9 @@ def dfs(vertex):
         # get the next eleme for the vertex
         if new[i][0] == vertex and not visited[new[i][0]]:
             visited[new[i][0]] = 1
-            #print(visited)
-            # print(new[i][0], '->', new[i][1])
             dfs(new[i][1])
             visited[new[i][0]] = 0
     
-    #print(visited)
 for tc in range(10):
     T, N = map(int, input().split())
 

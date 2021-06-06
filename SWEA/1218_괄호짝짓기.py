@@ -9,13 +9,11 @@ for tc in range(10):
     for i in range(N):
         if lst[i] in left:
             stck.append(lst[i])
-            #print(stck)
         if lst[i] in right:
             # 가장 상위의 괄호 값과 쌍이라면
             if right.index(lst[i]) == left.index(stck[-1]):
                 # 상위의 원소 제거하기
-                stck.pop()
-                #print(stck)
+                stck.pop()   
             else:
                 break
                 

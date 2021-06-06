@@ -15,12 +15,10 @@ def dfs(r, c):
             # 다음 등산로의 높이가 현재 등산로보다 높이가 낮고 탐색 가능하다면
             if mapp[nr][nc] < mapp[r][c] and visited[nr][nc] == 0:
                 visited[nr][nc] = visited[r][c] + 1
-                #print("go", visited)
                 dfs(nr, nc)
                 if visited[nr][nc] > maxvisit:
                     maxvisit = visited[nr][nc]
                 visited[nr][nc] = 0
-                #print("back", visited)
            
             # 다음 등산로의 높이가 현재 등산로보다 높이가 같거나 높다면
             if mapp[nr][nc] >= mapp[r][c] and visited[nr][nc] == 0 and not cut:
@@ -33,7 +31,6 @@ def dfs(r, c):
                         mapp[nr][nc] = height
                         cut = True
                         visited[nr][nc] = visited[r][c] + 1
-                        #print("go_cut", visited)
                         # dfs 다시 진행
                         dfs(nr, nc)
                         # 방문한 거리가 가장 멀다면 maxvisit에 저장
@@ -44,7 +41,6 @@ def dfs(r, c):
                         # 깎은거 다시 원래대로 되돌려놓기
                         mapp[nr][nc] += i
                         visited[nr][nc] = 0 
-                        #print("back_cut", visited)
 
 
 

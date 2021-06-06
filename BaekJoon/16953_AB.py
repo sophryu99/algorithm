@@ -15,8 +15,6 @@ def bfs(num, B):
             elif i not in visited:
                 visited.append(i)
                 q.append((i, count + 1))
-                print(visited)
-                print(i, count)
                 if i == B:
                     return (count + 2)
     

@@ -85,6 +85,7 @@ for i in nums:
     hash_table[i] +=1                   
 ```
 
+
 ```python3
 # Iterating over hashtable
 hashtb = {'s': 2, 'd': 1, 'k': 1, 'a': 1, 'f': 1, 'n': 1}
@@ -96,6 +97,11 @@ for key, value in hashtb.items():
 >>> a 1
 >>> f 1
 >>> n 1
+```
+
+```python3
+# counting recurring elements and storing them in a list
+res = {i:room.count(i) for i in room}
 ```
 
 ### Recursion
