@@ -7,11 +7,11 @@
 """
 
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 """
 Recursive solution
@@ -22,7 +22,7 @@ class Solution:
         if not root:
             return []
         
-        return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)           
+        return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)
             
 """
 Runtime: 28 ms, faster than 86.22% of Python3 online submissions for Binary Tree Preorder Traversal.
