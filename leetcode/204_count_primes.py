@@ -1,6 +1,27 @@
 # https://leetcode.com/problems/count-primes/
 
 """
+Brute Force O(n^2) Approach: Time Limit Exceeded
+"""
+class Solution:
+    def countPrimes(self, n: int) -> int:
+        
+        def isPrime(num):
+            for i in range(2, num):
+                if num % i == 0:
+                    return False
+            
+            return True
+        cnt = 0
+        
+        for i in range(2, n):
+            if isPrime(i):
+                cnt += 1
+                
+        return cnt    
+            
+
+"""
 Used Sieve of Eratosthenes algorithm
 Referred to : https://leetcode.com/problems/count-primes/discuss/435363/Python3-Simple-Code-How-to-Make-Your-Code-Faster
 """
