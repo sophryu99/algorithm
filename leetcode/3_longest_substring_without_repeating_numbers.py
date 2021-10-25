@@ -96,3 +96,42 @@ class Solution:
             max_size = max(max_size, len(curr_string))
         return max_size
         
+### 3rd try
+
+"""
+1. Iterate through the string with start and end index.
+2. Append the unique lettes until a recurring letter occurs.
+3. Compare the length of the string slice and reset the max length. 
+"""
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        if len(s) <= 1:
+            return len(s)
+            
+        start = 0
+        end = 1
+        d = [s[start]]
+        maxlen = len(d)
+        
+        while end < len(s):
+            if s[end] in d:
+                idx = d.index(s[end])
+                d = d[idx + 1:]
+                start = idx + 1
+                d.append(s[end])
+                end +=1
+                if len(d) > maxlen:
+                    maxlen = len(d)
+                
+            else:
+                d.append(s[end])
+                end += 1
+                if len(d) > maxlen:
+                    maxlen = len(d)
+                        
+        return maxlen
+    
+"""
+Runtime: 80 ms, faster than 51.72% of Python3 online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 14.3 MB, less than 54.36% of Python3 online submissions for Longest Substring Without Repeating Characters.
+"""
