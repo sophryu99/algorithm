@@ -32,3 +32,19 @@ CASE
 END As triangle
 FROM Triangle
 ```
+
+Datetime between two datetimes
+```sql
+with cte as (
+    SELECT p.product_id, SUM(units * prices) as revenue, sum(units) as quantity
+    FROM Prices p
+    JOIN UnitsSold u USING(product_id)
+    WHERE purchase_date between start_date and end_date
+)
+```
+
+Getting the next date of curr date
+```sql
+DATE_ADD('2019-07-05', INTERVAL -1 DAY)
+>>> '2019-07-04'
+```
