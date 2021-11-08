@@ -48,3 +48,9 @@ Getting the next date of curr date
 DATE_ADD('2019-07-05', INTERVAL -1 DAY)
 >>> '2019-07-04'
 ```
+
+Getting the greatest or least value amongst different columns
+```sql
+LEAST(from_id,to_id)
+GREATEST(from_id,to_id)
+```
