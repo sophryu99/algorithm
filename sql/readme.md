@@ -51,6 +51,8 @@ DATE_ADD('2019-07-05', INTERVAL -1 DAY)
 
 Getting the greatest or least value amongst different columns
 ```sql
-LEAST(from_id,to_id)
+LEAST(c1,c2)
 GREATEST(from_id,to_id)
 ```
+
+SUBSTRING(phone_number,1,3)

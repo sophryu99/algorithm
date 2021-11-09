@@ -13,4 +13,4 @@ FROM cte
 WHERE revenue = (
     SELECT MAX(revenue) 
     FROM cte
-)
+) 
