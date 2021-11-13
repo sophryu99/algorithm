@@ -1,6 +1,6 @@
 -- https://leetcode.com/problems/all-people-report-to-the-given-manager/
 
-# Write your MySQL query statement below
+-- # Write your MySQL query statement below
 
 select e1.employee_id
 FROM Employees e1

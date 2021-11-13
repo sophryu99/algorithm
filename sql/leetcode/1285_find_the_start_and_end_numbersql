@@ -1,0 +1,15 @@
+-- https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/
+
+-- # Write your MySQL query statement below
+-- # 1. Calculate the difference of log_id and the rank
+-- # 2. Group by the difference between log_id and num and set the min value as start_id and max value as end_id
+
+SELECT min(log_id) as start_id, 
+       max(log_id) as end_id
+FROM (SELECT log_id, 
+             RANK() OVER(ORDER BY log_id) as num
+      FROM Logs) a
+GROUP BY log_id - num
+
+
+

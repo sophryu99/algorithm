@@ -11,18 +11,18 @@ What is a Relational Data Model? Explain Several Other Logical Data Models
 
 
 ## Codes
-Rouding up to 2 decimal points
+### Rouding up to 2 decimal points
 ```sql
 ROUND(23.112342), 2)
 >>> 23.11
 ```
 
-Rouding down to integer
+### Rouding down to integer
 ```sql
 SELECT FLOOR(your_field) FROM your_table
 ```
 
-Case when examples
+### Case when examples
 ```sql
 SELECT x, y, z,
 CASE 
@@ -33,7 +33,7 @@ END As triangle
 FROM Triangle
 ```
 
-Datetime between two datetimes
+### Datetime between two datetimes
 ```sql
 with cte as (
     SELECT p.product_id, SUM(units * prices) as revenue, sum(units) as quantity
@@ -43,16 +43,31 @@ with cte as (
 )
 ```
 
-Getting the next date of curr date
+### Getting the next date of curr date
 ```sql
 DATE_ADD('2019-07-05', INTERVAL -1 DAY)
 >>> '2019-07-04'
 ```
 
-Getting the greatest or least value amongst different columns
+### Getting the greatest or least value amongst different columns
 ```sql
 LEAST(c1,c2)
 GREATEST(from_id,to_id)
 ```
-
+### Getting string slices
+```sql
 SUBSTRING(phone_number,1,3)
+```
+
+### Using group by with case statement
+```sql
+SELECT stock_name,
+    SUM(
+        CASE
+            WHEN operation = 'Buy' THEN -price
+            ELSE price
+        END
+    )AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name
+```
