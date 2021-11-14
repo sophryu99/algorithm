@@ -1,6 +1,6 @@
 -- https://leetcode.com/problems/friendly-movies-streamed-last-month/
 
-# Write your MySQL query statement below
+-- # Write your MySQL query statement below
 
 
 SELECT DISTINCT title
