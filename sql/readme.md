@@ -88,3 +88,35 @@ DATE_FORMAT(pay_date,'%Y-%m') as pay_month
 >>> DATE_FORMAT('2019/08/19', '%Y-%m')
 >>> 2019-08
 ```
+
+### Ranking each rows
+```sql
+SELECT log_id, 
+    RANK() OVER(ORDER BY log_id) as num
+FROM Logs
+```
+
+### Partition by
+- Giving ranks to every rows within each group
+```sql
+SELECT group, sequence
+    RANK() OVER(Partition by group, ORDER BY sequence) as seq
+FROM Logs
+```
+### Rank without missing values
+```sql
+SELECT score,
+    DENSE_RANK() OVER(order by score desc) as `rank`
+FROM (SELECT * FROM Scores Order by Score DESC) a
+```
+
+### Creating a table with continuous incrementing values as rows
+```sql
+with recursive rnums as (
+  select 1 as ids
+      union all
+  select ids + 1 as ids from rnums
+      where ids < (SELECT max(customer_id) FROM customers)
+)
+```
+

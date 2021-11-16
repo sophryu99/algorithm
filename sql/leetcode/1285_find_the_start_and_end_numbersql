@@ -11,5 +11,24 @@ FROM (SELECT log_id,
       FROM Logs) a
 GROUP BY log_id - num
 
+-- My Solution
+
+# Write your MySQL query statement below
+
+with cte as (
+    SELECT log_id, log_id - num as diff
+    FROM (
+        SELECT log_id, 
+            RANK() OVER(ORDER BY log_id) as num
+        FROM Logs
+    ) a
+)
+
+SELECT MIN(log_id) as start_id, MAX(log_id) as end_id 
+FROM cte
+GROUP BY diff
+ORDER BY start_id
+
+
 
 
