@@ -23,5 +23,6 @@ class Solution:
         
 """
 Runtime: 728 ms, faster than 7.38% of Python3 online submissions for Relative Ranks.
+
 Memory Usage: 14.8 MB, less than 99.04% of Python3 online submissions for Relative Ranks.
 """
