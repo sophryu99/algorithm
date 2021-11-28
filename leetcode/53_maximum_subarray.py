@@ -29,6 +29,7 @@ class Solution:
 """
 Runtime: 64 ms, faster than 78.58% of Python3 online submissions for Maximum Subarray.
 Memory Usage: 15 MB, less than 60.75% of Python3 online submissions for Maximum Subarray.
+Mem
 """
         
         

@@ -13,4 +13,8 @@ class Solution:
                 return (len(lst[i]))
         return 0
     
+"""
+Runtime: 32 ms, faster than 61.34% of Python3 online submissions for Length of Last Word.
+Memory Usage: 14.1 MB, less than 87.91% of Python3 online submissions for Length of Last Word.
+"""
         

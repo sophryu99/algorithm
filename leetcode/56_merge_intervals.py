@@ -18,5 +18,6 @@ class Solution:
 """
 Runtime: 130 ms, faster than 23.55% of Python3 online submissions for Merge Intervals.
 Memory Usage: 16.1 MB, less than 84.98% of Python3 online submissions for Merge Intervals.
+Retried
 """
         
