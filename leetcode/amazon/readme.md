@@ -1,17 +1,17 @@
 Python
 
-1. Two Sum: Easy
-2. Add Two Numbers: Medium
-3. Longest Substring Without Repeating Characters
-4. Median of Two Sorted Arrays
-5. Longest Palindromic Substring
+1. Two Sum: Easy [ ]
+2. Add Two Numbers: Medium [ ]
+3. Longest Substring Without Repeating Characters: Medium [ ]
+4. Median of Two Sorted Arrays: Hard [ ]
+5. Longest Palindromic Substring: Medium
 6. Zigzag Conversion
 7. String to Integer (atoi)
 8. 3Sum
 9. Letter Combinations of a Phone Number
-10. Valid Parentheses
+10. Valid Parentheses Easy
 11. Merge Two Sorted Lists
-12. Generate Parentheses
+12. Generate Parentheses: Medium
 13. Merge k Sorted Lists
 14. Trapping Rain Water
 15. Permutations

@@ -29,6 +29,11 @@ class Solution:
         return pairs
         
             
+"""
+Runtime: 28 ms, faster than 96.03% of Python3 online submissions for Generate Parentheses.
+Memory Usage: 14.5 MB, less than 68.44% of Python3 online submissions for Generate Parentheses.
+"""
+
             
         
         
