@@ -21,3 +21,28 @@ Memory Usage: 16.1 MB, less than 84.98% of Python3 online submissions for Merge 
 Retried
 """
         
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        # Sort according to the 0th element of the intervals list
+        s = sorted(intervals)
+        ans = [s[0]]
+        curr = 1
+        while curr < len(s):
+            # If the second element of the list s is larger than the next element's first index
+            if ans[-1][1] >= s[curr][0]:
+                # If the second element of the list s is larger than the next element's second index
+                if ans[-1][1] < s[curr][1]:
+                    # Replace the second element of the list s with the next element's second index
+                    ans[-1][1] = s[curr][1]
+                # Increment curr index
+                curr += 1
+            # If the interval doesnt overlap, append the new element
+            else:
+                ans.append(s[curr])
+                curr += 1
+        return (ans)
+          
+"""
+Runtime: 84 ms, faster than 78.44% of Python3 online submissions for Merge Intervals.
+Memory Usage: 16.1 MB, less than 55.36% of Python3 online submissions for Merge Intervals.
+"""

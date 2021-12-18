@@ -34,3 +34,29 @@ class Solution:
 Runtime: 100 ms, faster than 73.66% of Python3 online submissions for Group Anagrams.
 Memory Usage: 17.7 MB, less than 59.67% of Python3 online submissions for Group Anagrams.
 """
+
+import collections
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        # Sort every words of the list
+        s = [''.join(sorted(i)) for i in strs]
+        
+        # Map the index of the common words
+        d = collections.defaultdict(lambda: list())
+        for i, word in enumerate(s):
+            d[word].append(i)
+        
+        ans = []
+        # Group common indices
+        for v in d.values():
+            common = []
+            for i in v:
+                common.append(strs[i])
+            ans.append(common)
+            
+        return (ans)
+
+"""
+Runtime: 96 ms, faster than 81.15% of Python3 online submissions for Group Anagrams.
+Memory Usage: 18.7 MB, less than 27.12% of Python3 online submissions for Group Anagrams.
+"""

@@ -40,6 +40,7 @@ class Solution:
         return dp[-1][-1]
                 
 """
-Runtime: 128 ms, faster than 35.65% of Python3 online submissions for Minimum Path Sum.
-Memory Usage: 15.5 MB, less than 81.47% of Python3 online submissions for Minimum Path Sum.
+Runtime: 136 ms, faster than 21.69% of Python3 online submissions for Minimum Path Sum.
+Memory Usage: 15.7 MB, less than 63.53% of Python3 online submissions for Minimum Path Sum.
 """
+

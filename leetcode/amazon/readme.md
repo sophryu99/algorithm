@@ -1,4 +1,6 @@
-Python
+## Python
+
+[Amazon Questions](https://leetcode.com/list/xyknlrg2/)
 
 - [X] 1. Two Sum: Easy 
 - [X] 2. Add Two Numbers: Medium
@@ -16,11 +18,11 @@ Python
 - [ ] 14. Trapping Rain Water
 - [ ] 15. Permutations
 - [ ] 16. Rotate Image
-- [ ] 17. Group Anagrams
-- [ ] 18. Merge Intervals
-- [ ] 19. Spiral Matrix II
-- [ ] 20. Unique Paths II
-- [ ] 21. Minimum Path Sum
+- [X] 17. Group Anagrams: Medium
+- [X] 18. Merge Intervals: Medium
+- [X] 19. Spiral Matrix II
+- [X] 20. Unique Paths II
+- [X] 21. Minimum Path Sum
 - [ ] 22. Edit Distance
 - [ ] 23. Set Matrix Zeroes
 - [ ] 24. Sort Colors
