@@ -1,146 +1,145 @@
 ## Leetcode Python Questions Solved
-|   |   |   |   |   |
-|---|---|---|---|---|
-|tet|test|tet|   |   |
-- 1_twoSums.py
-- 2_add_two_numbers.py
-- 3_longest_substring_without_repeating_numbers.py
-- 5_longest_palindrome_substring.py
-- 7_reverse_integer.py
-- 11_container_with_most_water.py
-- 13_roman_to_integer.py
-- 14_longest_common_prefix.py
-- 15_3sum.py
-- 17_letter_combinations_of_phone_numberr.py
-- 19_remove_nth_node_from_linked_list.py
-- 20_valid_parentheses.py20_valid_parenthesis.py
-- 21_merge_two_sorted_array.py
-- 22_generate_parenthesis.py
-- 26_remove_duplicates_from_a_sorted_array.py
-- 28_implement_strStr.py
-- 33_search_in_rotated_search_array.py
-- 34_first_and_last_position_in_sorted_array.py
-- 35_search_insert_position.py
-- 49_group_anagrams.py
-- 50_pow_x_n.py
-- 53_maximum_subarray.py
-- 56_merge_intervals.py
-- 58_length_of_last_word.py
-- 59_spiral_matrix_ii.py
-- 62_unique_paths.py
-- 64_minimum_path_sum.py
-- 69_sqrt_x.py
-- 70_climbing_stairs.py
-- 75_sort_colors.py
-- 76_Minimum_Window_Substring.py
-- 78_subsets.py
-- 83_remove_duplicates_from_sorted_list.py
-- 88_merge_sorted_array.py
-- 94_binary_tree_inorder_traversal.py
-- 96_unique_binary_search_trees.py
-- 98_validate_bst.py
-- 100_same_tree.py
-- 102_binary_tree_level_order_traversal.py
-- 104_maximum_depth_of_binary_tree.py
-- 107_binary_tree_traversal_II.py
-- 110_balanced_binary_tree.py
-- 111_minimum_depth_of_binary_tree.py
-- 112_path_sum.py
-- 113_pathsum2.py
-- 118_pascals_triangle.py
-- 120_triangle.py
-- 121_best_time_to_sell_and_buy_stock.py
-- 122_best_time_buy_and_sell_stock_ii.py
-- 125_valid_palindrome.py
-- 136_single_number.py
-- 143_reorder_list.py
-- 144_binary_tree_preorder_traversal.py
-- 145_binary_tree_postorder_traversal.py
-- 146_LRU_cache.py
-- 148_sort_list.py
-- 155_min_stack.py
-- 167_two_sum_II.py
-- 169_majority_element.py
-- 172_Factorial_Trailing_Zeroes.py
-- 189_rotate_array.py
-- 198_house_robber.py
-- 199_binary_tree_right_side_view.py
-- 202_happy_number.py
-- 204_count_primes.py
-- 214_shortest_palindrome.py
-- 215_kth_largest_element_in_an_array.py
-- 217_contains_duplicate.py
-- 219_contains_duplicate_ii.py
-- 230_kth_smallest_element_in_bst.py
-- 231_power_of_two.py
-- 237_delete_node_in_a_linked_list.py
-- 239_sliding_window_maximum.py
-- 242_valid_anagram.py
-- 253_meeting_rooms_ii.py
-- 257_binary_tree_paths.py
-- 258_add_digits.py
-- 263_ugly_number.py
-- 264_ugly_number_ii.py
-- 268_missing_number.py
-- 278_first_bad_version.py
-- 283_move_zeros.py
-- 290_word_pattern.py
-- 322_coin_change.py
-- 326_power_of_three.py
-- 342_power_of_four.py
-- 344_reverse_string.py
-- 347_top_k_element.py
-- 349_intersection_of_two_array.py
-- 350_intersection_of_two_array_ii.py
-- 367_valid_perfect_square.py
-- 374_guess_num_higher_lower.py
-- 383_ransome_note.py
-- 387_first_unique_characters_in_a_string.py
-- 389_find_the_difference.py
-- 392_isSubSequence.py
-- 404_sum_of_left_leaves.py
-- 412_fizz_buzz.py
-- 414_third_maximum_number.py
-- 415_add_strings.py
-- 441_arranging_coins.py
-- 452_minimum_number_of_arrows_to_burst_balloons.py
-- 455_assign_cookies.py
-- 476_number_component.py
-- 482_license_key_formatting.py
-- 500_keyword_rows.py
-- 501_find_mode_in_bst.py
-- 506_relative_ranks.py
-- 507_perfect_number.py
-- 509_fibonacci_number.py
-- 520_detect_capital.py
-- 567_permutation_in_string.py
-- 594_longest_harmonious_sequence.py
-- 599_minimum_index_sum_of_two_lists.py
-- 605_can_place_flowers.py
-- 621_task_scheduler.py
-- 635_design_log_storage_system.py
-- 637_average_levels_of_binary_trees.py
-- 645_set_mismatch.py
-- 690_employee_importance.py
-- 692_top_k_frequent_words.py
-- 700_search_in_a_binary_tree.py
-- 703_kth_largest_element_in_a_stream.py
-- 704_binary_search.py
-- 705_design_hashset.py
-- 706_design_hashmap.py
-- 733_floodfill.py
-- 744_smallest_letter_greater_than_target.py
-- 860_lemonade_change.py
-- 876_middle_of_the_linked_list.py
-- 929_unique_email_address.py
-- 973_kclosest_points_to_the_origin.py
-- 1004_max_consecutive_ones_iii.py
-- 1041_robot_bounded_in_circle.py
-- 1046_last_stone_weight.py
-- 1161_maximum_level_of_sum_of_a_binary_tree.py
-- 1396_design_underground_system.py
-- 1492_the_kth_factor_of_n.py
-- 1528_shuffle_string.py
-- 1604_Alert Using Same Key-Card Three or More Times in a One Hour Period.py
-- 1817_finding_the_users_active_minutes.py
-- 10000_test.py
+|Question| Attempt 1| Attempt 2|Attempt 3|
+|---|---|---|---|
+|[1_twoSums.py](1_twoSums.py)||||
+|[2_add_two_numbers.py](2_add_two_numbers.py)||||
+|[3_longest_substring_without_repeating_numbers.py](3_longest_substring_without_repeating_numbers.py)||||
+|[5_longest_palindrome_substring.py](5_longest_palindrome_substring.py)||||
+|[7_reverse_integer.py](7_reverse_integer.py)||||
+|[11_container_with_most_water.py](11_container_with_most_water.py)||||
+|[13_roman_to_integer.py](13_roman_to_integer.py)||||
+|[14_longest_common_prefix.py](14_longest_common_prefix.py)||||
+|[15_3sum.py](15_3sum.py)||||
+|[17_letter_combinations_of_phone_numberr.py](17_letter_combinations_of_phone_numberr.py)||||
+|[19_remove_nth_node_from_linked_list.py](19_remove_nth_node_from_linked_list.py)||||
+|[20_valid_parentheses.py20_valid_parenthesis.py](20_valid_parentheses.py20_valid_parenthesis.py)||||
+|[21_merge_two_sorted_array.py](21_merge_two_sorted_array.py)||||
+|[22_generate_parenthesis.py](22_generate_parenthesis.py)||||
+|[26_remove_duplicates_from_a_sorted_array.py](26_remove_duplicates_from_a_sorted_array.py)||||
+|[28_implement_strStr.py](28_implement_strStr.py)||||
+|[33_search_in_rotated_search_array.py](33_search_in_rotated_search_array.py)||||
+|[34_first_and_last_position_in_sorted_array.py](34_first_and_last_position_in_sorted_array.py)||||
+|[35_search_insert_position.py](35_search_insert_position.py)||||
+|[49_group_anagrams.py](49_group_anagrams.py)||||
+|[50_pow_x_n.py](50_pow_x_n.py)||||
+|[53_maximum_subarray.py](53_maximum_subarray.py)||||
+|[56_merge_intervals.py](56_merge_intervals.py)||||
+|[58_length_of_last_word.py](58_length_of_last_word.py)||||
+|[59_spiral_matrix_ii.py](59_spiral_matrix_ii.py)||||
+|[62_unique_paths.py](62_unique_paths.py)||||
+|[64_minimum_path_sum.py](64_minimum_path_sum.py)||||
+|[69_sqrt_x.py](69_sqrt_x.py)||||
+|[70_climbing_stairs.py](70_climbing_stairs.py)||||
+|[75_sort_colors.py](75_sort_colors.py)||||
+|[76_Minimum_Window_Substring.py](76_Minimum_Window_Substring.py)||||
+|[78_subsets.py](78_subsets.py)||||
+|[83_remove_duplicates_from_sorted_list.py](83_remove_duplicates_from_sorted_list.py)||||
+|[88_merge_sorted_array.py](88_merge_sorted_array.py)||||
+|[94_binary_tree_inorder_traversal.py](94_binary_tree_inorder_traversal.py)||||
+|[96_unique_binary_search_trees.py](96_unique_binary_search_trees.py)||||
+|[98_validate_bst.py](98_validate_bst.py)||||
+|[100_same_tree.py](100_same_tree.py)||||
+|[102_binary_tree_level_order_traversal.py](102_binary_tree_level_order_traversal.py)||||
+|[104_maximum_depth_of_binary_tree.py](104_maximum_depth_of_binary_tree.py)||||
+|[107_binary_tree_traversal_II.py](107_binary_tree_traversal_II.py)||||
+|[110_balanced_binary_tree.py](110_balanced_binary_tree.py)||||
+|[111_minimum_depth_of_binary_tree.py](111_minimum_depth_of_binary_tree.py)||||
+|[112_path_sum.py](112_path_sum.py)||||
+|[113_pathsum2.py](113_pathsum2.py)||||
+|[118_pascals_triangle.py](118_pascals_triangle.py)||||
+|[120_triangle.py](120_triangle.py)||||
+|[121_best_time_to_sell_and_buy_stock.py](121_best_time_to_sell_and_buy_stock.py)||||
+|[122_best_time_buy_and_sell_stock_ii.py](122_best_time_buy_and_sell_stock_ii.py)||||
+|[125_valid_palindrome.py](125_valid_palindrome.py)||||
+|[136_single_number.py](136_single_number.py)||||
+|[143_reorder_list.py](143_reorder_list.py)||||
+|[144_binary_tree_preorder_traversal.py](144_binary_tree_preorder_traversal.py)||||
+|[145_binary_tree_postorder_traversal.py](145_binary_tree_postorder_traversal.py)||||
+|[146_LRU_cache.py](146_LRU_cache.py)||||
+|[148_sort_list.py](148_sort_list.py)||||
+|[155_min_stack.py](155_min_stack.py)||||
+|[167_two_sum_II.py](167_two_sum_II.py)||||
+|[169_majority_element.py](169_majority_element.py)||||
+|[172_Factorial_Trailing_Zeroes.py](172_Factorial_Trailing_Zeroes.py)||||
+|[189_rotate_array.py](189_rotate_array.py)||||
+|[198_house_robber.py](198_house_robber.py)||||
+|[199_binary_tree_right_side_view.py](199_binary_tree_right_side_view.py)||||
+|[202_happy_number.py](202_happy_number.py)||||
+|[204_count_primes.py](204_count_primes.py)||||
+|[214_shortest_palindrome.py](214_shortest_palindrome.py)||||
+|[215_kth_largest_element_in_an_array.py](215_kth_largest_element_in_an_array.py)||||
+|[217_contains_duplicate.py](217_contains_duplicate.py)||||
+|[219_contains_duplicate_ii.py](219_contains_duplicate_ii.py)||||
+|[230_kth_smallest_element_in_bst.py](230_kth_smallest_element_in_bst.py)||||
+|[231_power_of_two.py](231_power_of_two.py)||||
+|[237_delete_node_in_a_linked_list.py](237_delete_node_in_a_linked_list.py)||||
+|[239_sliding_window_maximum.py](239_sliding_window_maximum.py)||||
+|[242_valid_anagram.py](242_valid_anagram.py)||||
+|[253_meeting_rooms_ii.py](253_meeting_rooms_ii.py)||||
+|[257_binary_tree_paths.py](257_binary_tree_paths.py)||||
+|[258_add_digits.py](258_add_digits.py)||||
+|[263_ugly_number.py](263_ugly_number.py)||||
+|[264_ugly_number_ii.py](264_ugly_number_ii.py)||||
+|[268_missing_number.py](268_missing_number.py)||||
+|[278_first_bad_version.py](278_first_bad_version.py)||||
+|[283_move_zeros.py](283_move_zeros.py)||||
+|[290_word_pattern.py](290_word_pattern.py)||||
+|[322_coin_change.py](322_coin_change.py)||||
+|[326_power_of_three.py](326_power_of_three.py)||||
+|[342_power_of_four.py](342_power_of_four.py)||||
+|[344_reverse_string.py](344_reverse_string.py)||||
+|[347_top_k_element.py](347_top_k_element.py)||||
+|[349_intersection_of_two_array.py](349_intersection_of_two_array.py)||||
+|[350_intersection_of_two_array_ii.py](350_intersection_of_two_array_ii.py)||||
+|[367_valid_perfect_square.py](367_valid_perfect_square.py)||||
+|[374_guess_num_higher_lower.py](374_guess_num_higher_lower.py)||||
+|[383_ransome_note.py](383_ransome_note.py)||||
+|[387_first_unique_characters_in_a_string.py](387_first_unique_characters_in_a_string.py)||||
+|[389_find_the_difference.py](389_find_the_difference.py)||||
+|[392_isSubSequence.py](392_isSubSequence.py)||||
+|[404_sum_of_left_leaves.py](404_sum_of_left_leaves.py)||||
+|[412_fizz_buzz.py](412_fizz_buzz.py)||||
+|[414_third_maximum_number.py](414_third_maximum_number.py)||||
+|[415_add_strings.py](415_add_strings.py)||||
+|[441_arranging_coins.py](441_arranging_coins.py)||||
+|[452_minimum_number_of_arrows_to_burst_balloons.py](452_minimum_number_of_arrows_to_burst_balloons.py)||||
+|[455_assign_cookies.py](455_assign_cookies.py)||||
+|[476_number_component.py](476_number_component.py)||||
+|[482_license_key_formatting.py](482_license_key_formatting.py)||||
+|[500_keyword_rows.py](500_keyword_rows.py)||||
+|[501_find_mode_in_bst.py](501_find_mode_in_bst.py)||||
+|[506_relative_ranks.py](506_relative_ranks.py)||||
+|[507_perfect_number.py](507_perfect_number.py)||||
+|[509_fibonacci_number.py](509_fibonacci_number.py)||||
+|[520_detect_capital.py](520_detect_capital.py)||||
+|[567_permutation_in_string.py](567_permutation_in_string.py)||||
+|[594_longest_harmonious_sequence.py](594_longest_harmonious_sequence.py)||||
+|[599_minimum_index_sum_of_two_lists.py](599_minimum_index_sum_of_two_lists.py)||||
+|[605_can_place_flowers.py](605_can_place_flowers.py)||||
+|[621_task_scheduler.py](621_task_scheduler.py)||||
+|[635_design_log_storage_system.py](635_design_log_storage_system.py)||||
+|[637_average_levels_of_binary_trees.py](637_average_levels_of_binary_trees.py)||||
+|[645_set_mismatch.py](645_set_mismatch.py)||||
+|[690_employee_importance.py](690_employee_importance.py)||||
+|[692_top_k_frequent_words.py](692_top_k_frequent_words.py)||||
+|[700_search_in_a_binary_tree.py](700_search_in_a_binary_tree.py)||||
+|[703_kth_largest_element_in_a_stream.py](703_kth_largest_element_in_a_stream.py)||||
+|[704_binary_search.py](704_binary_search.py)||||
+|[705_design_hashset.py](705_design_hashset.py)||||
+|[706_design_hashmap.py](706_design_hashmap.py)||||
+|[733_floodfill.py](733_floodfill.py)||||
+|[744_smallest_letter_greater_than_target.py](744_smallest_letter_greater_than_target.py)||||
+|[860_lemonade_change.py](860_lemonade_change.py)||||
+|[876_middle_of_the_linked_list.py](876_middle_of_the_linked_list.py)||||
+|[929_unique_email_address.py](929_unique_email_address.py)||||
+|[973_kclosest_points_to_the_origin.py](973_kclosest_points_to_the_origin.py)||||
+|[1004_max_consecutive_ones_iii.py](1004_max_consecutive_ones_iii.py)||||
+|[1041_robot_bounded_in_circle.py](1041_robot_bounded_in_circle.py)||||
+|[1046_last_stone_weight.py](1046_last_stone_weight.py)||||
+|[1161_maximum_level_of_sum_of_a_binary_tree.py](1161_maximum_level_of_sum_of_a_binary_tree.py)||||
+|[1396_design_underground_system.py](1396_design_underground_system.py)||||
+|[1492_the_kth_factor_of_n.py](1492_the_kth_factor_of_n.py)||||
+|[1528_shuffle_string.py](1528_shuffle_string.py)||||
+|[1604_Alert Using Same Key-Card Three or More Times in a One Hour Period.py](1604_Alert Using Same Key-Card Three or More Times in a One Hour Period.py)||||
+|[1817_finding_the_users_active_minutes.py](1817_finding_the_users_active_minutes.py)||||
+|[10000_test.py](10000_test.py)||||
