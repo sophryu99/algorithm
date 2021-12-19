@@ -14,8 +14,8 @@ sorted_questions = dict(sorted(master.items(), key=lambda item: item[0]))
 questions_list = list(sorted_questions.values())
 # Link relative path
 questions_list = ['[' + i + ']' + '({})'.format(i)  for i in questions_list]
-# Add to table
-questions_list = ['|' + i + '|'+ '|' + '|' + '|' + '\n' for i in questions_list]
+# Add to table and default checkbox
+questions_list = ['|' + i + '|'+ '[X]' + '|' + '|' + '|' + '\n' for i in questions_list]
 
 # Export it to markdown, convert to table
 markdown = open('./leetcode/readme.md', 'w')
