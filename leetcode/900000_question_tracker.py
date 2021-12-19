@@ -38,19 +38,21 @@ class QuestionTracker:
     def convert_format(self, q_list):
         # Link relative path
         q_list = ['[' + i + ']' + '({})'.format(i)  for i in q_list]
-        
+        checked = '<input type="checkbox" disabled checked />'
+        unchecked = '<input type="checkbox" disabled />'
+
         # Attempt check
-        checkbox = '- [ ]' + '|' + '- [ ]' + '|' + '- [ ]' + '|'
+        checkbox = unchecked + '|' + unchecked + '|' + unchecked + '|'
         for i, num in enumerate(self.attempt):
             if num == 1:
-                checkbox = '- [x]' + '|' + '- [ ]' + '|' + '- [ ]' + '|'
+                checkbox = checked + '|' + unchecked + '|' + unchecked + '|'
             elif num == 2:
-                checkbox = '- [x]' + '|' + '- [x]' + '|' + '- [ ]' + '|'
+                checkbox = checked + '|' + checked + '|' + unchecked + '|'
             elif num == 3:
-                checkbox = '- [x]' + '|' + '- [x]' + '|' + '- [x]' + '|'
+                checkbox = checked + '|' + checked + '|' + checked + '|'
             # Add to table and default checkbox
             self.questions_list[i] = '|' + self.questions_list[i] + '|' + checkbox + '\n'
-            checkbox = '- [ ]' + '|' + '- [ ]' + '|' + '- [ ]' + '|'
+            checkbox = unchecked + '|' + unchecked + '|' + unchecked + '|'
         
         return self.questions_list
 
