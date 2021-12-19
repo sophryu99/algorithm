@@ -35,3 +35,32 @@ class Solution:
 Runtime: 40 ms, faster than 76.96% of Python3 online submissions for Maximum Depth of Binary Tree.
 Memory Usage: 15.3 MB, less than 92.68% of Python3 online submissions for Maximum Depth of Binary Tree.
 """
+"""
+Second attempt
+"""
+
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        level = [[root]]
+        cnt = 0
+        while level:
+            # Get the head node
+            node = level.pop(0)
+            samedepth = []
+            for leaf in node:
+                if leaf.left:
+                    samedepth.append(leaf.left)
+                if leaf.right:
+                    samedepth.append(leaf.right)
+            cnt += 1
+            if samedepth:
+                level.append(samedepth)
+            
+        return cnt    
+            
+"""
+Runtime: 40 ms, faster than 76.86% of Python3 online submissions for Maximum Depth of Binary Tree.
+Memory Usage: 15.3 MB, less than 89.14% of Python3 online submissions for Maximum Depth of Binary Tree."""
+
