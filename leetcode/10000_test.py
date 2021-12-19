@@ -17,4 +17,10 @@ questions_list = ['- ' + i + '\n' for i in questions_list]
 # Export it to markdown
 markdown = open('./leetcode/readme.md', 'w')
 markdown.write("## Leetcode Python Questions Solved\n")
+markdown.write("|   |   |   |   |   |")
+markdown.write("\n")
+markdown.write("|---|---|---|---|---|")
+markdown.write("\n")
+markdown.write("|tet|test|tet|   |   |")
+markdown.write("\n")
 markdown.writelines(questions_list)
