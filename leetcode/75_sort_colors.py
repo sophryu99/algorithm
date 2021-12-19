@@ -51,3 +51,47 @@ class Solution:
 Runtime: 53 ms, faster than 14.53% of Python3 online submissions for Sort Colors.
 Memory Usage: 14.1 MB, less than 92.11% of Python3 online submissions for Sort Colors.
 """
+
+
+"""
+Second Attempt: 
+1. Compare if the curr element is larger than the minimum element of the rest of the num slice
+2. If curr element is larger, swap the position
+3. If curr element is smaller or equal, increment curridx
+"""
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+        """
+        [2,0,0,1,1,0]
+        [0,2,0,1,1,0]
+        [0,0,2,1,1,0]
+        ..
+        [0,0,1,1,0,2]
+    
+        """
+        if len(nums) == 1:
+            return nums
+        
+        currmin = min(nums)
+        curridx = 0
+        while curridx < len(nums) - 1:
+            window = nums[curridx + 1:]
+            currmin = min(window)
+            if nums[curridx] > currmin:
+                currele = nums[curridx]
+                minidx = window.index(currmin) + (len(nums) - len(window))
+                nums[minidx] = currele
+                nums[curridx] = currmin
+            else:
+                curridx += 1
+        
+"""
+Runtime: 28 ms, faster than 91.77% of Python3 online submissions for Sort Colors.
+Memory Usage: 14 MB, less than 92.13% of Python3 online submissions for Sort Colors.
+"""
+
+                
+        
+        
+        
+        

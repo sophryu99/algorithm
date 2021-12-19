@@ -12,7 +12,7 @@
 - [ ] 8. 3Sum
 - [ ] 9. Letter Combinations of a Phone Number
 - [X] 10. Valid Parentheses: Easy
-- [ ] 11. Merge Two Sorted Lists
+- [X] 11. Merge Two Sorted Lists
 - [X] 12. Generate Parentheses: Medium
 - [ ] 13. Merge k Sorted Lists
 - [ ] 14. Trapping Rain Water
@@ -21,11 +21,11 @@
 - [X] 17. Group Anagrams: Medium
 - [X] 18. Merge Intervals: Medium
 - [X] 19. Spiral Matrix II
-- [X] 20. Unique Paths II
-- [X] 21. Minimum Path Sum
+- [X] 20. Unique Paths II: Medium
+- [X] 21. Minimum Path Sum: Medium
 - [ ] 22. Edit Distance
 - [ ] 23. Set Matrix Zeroes
-- [ ] 24. Sort Colors
+- [X] 24. Sort Colors
 - [ ] 25. Minimum Window Substring
 - [ ] 26. Subsets
 - [ ] 27. Gray Code
@@ -42,7 +42,7 @@
 - [ ] 38. Word Break
 - [ ] 39. Linked List Cycle
 - [ ] 40. LRU Cache
-- [ ] 41. Sort List
+- [X] 41. Sort List
 - [ ] 42. Min Stack
 - [ ] 43. Intersection of Two Linked Lists
 - [ ] 44. Two Sum II - Input Array Is Sorted
