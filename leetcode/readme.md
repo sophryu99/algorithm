@@ -143,3 +143,6 @@
 |[1604_Alert_Using_Same_Key_Card_Three_or_More_Times_in_a_One_Hour_Period.py](1604_Alert_Using_Same_Key_Card_Three_or_More_Times_in_a_One_Hour_Period.py)|[X]|||
 |[1817_finding_the_users_active_minutes.py](1817_finding_the_users_active_minutes.py)|[X]|||
 |[10000_test.py](10000_test.py)|[X]|||
+|[900000_question_tracker.py](900000_question_tracker.py)|[X]|||
+
+Total: 143 questions
