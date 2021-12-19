@@ -3,6 +3,7 @@ import collections
 
 class QuestionTracker:
     def __init__(self):
+        self.attempt = []
         self.questions_list = []
 
     def get_file_names(self):
@@ -18,12 +19,41 @@ class QuestionTracker:
         sorted_questions = dict(sorted(master.items(), key=lambda item: item[0]))
         self.questions_list = list(sorted_questions.values())
         return self.questions_list
+    
+    def check_attempt(self, q_list):
+        # Check if nth attempt for each question
+        for name in q_list:
+            f = open("./leetcode/{}".format(name), "r")
         
+            # read file content
+            readfile = f.read()
+            occurrences = readfile.count("class Solution")
+            if occurrences > 3:
+                occurrences = 3
+            self.attempt.append(occurrences)
+
+            # closing a file
+            f.close() 
+
     def convert_format(self, q_list):
         # Link relative path
         q_list = ['[' + i + ']' + '({})'.format(i)  for i in q_list]
-        # Add to table and default checkbox
-        self.questions_list = ['|' + i + '|'+ '[x]' + '|' + '|' + '|' + '\n' for i in q_list]
+        
+        # Attempt check
+        checkbox = '[ ]' + '|' + '[ ]' + '|' + '[ ]' + '|'
+        for i, num in enumerate(self.attempt):
+            if num == 1:
+                checkbox = '[x]' + '|' + '[ ]' + '|' + '[ ]' + '|'
+            elif num == 2:
+                checkbox = '[x]' + '|' + '[x]' + '|' + '[ ]' + '|'
+            elif num == 3:
+                checkbox = '[x]' + '|' + '[x]' + '|' + '[x]' + '|'
+            # Add to table and default checkbox
+            self.questions_list[i] = '|' + self.questions_list[i] + '|' + checkbox + '\n'
+            checkbox = '[ ]' + '|' + '[ ]' + '|' + '[ ]' + '|'
+        
+        # self.questions_list = ['|' + i + '|'+ checkbox + '\n' for i in q_list]
+        # print(self.questions_list)
         return self.questions_list
 
     def write_to_markdown(self, q_list):
@@ -43,6 +73,7 @@ class QuestionTracker:
 ### Driver code
 q = QuestionTracker()
 q_list = q.get_file_names()
+q.check_attempt(q_list)
 converted_list = q.convert_format(q_list)
 q.write_to_markdown(converted_list)
 
