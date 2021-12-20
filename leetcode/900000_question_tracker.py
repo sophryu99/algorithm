@@ -27,7 +27,7 @@ class QuestionTracker:
         
             # read file content
             readfile = f.read()
-            occurrences = readfile.count("class Solution")
+            occurrences = readfile.count("class ")
             if occurrences > 3:
                 occurrences = 3
             self.attempt.append(occurrences)
