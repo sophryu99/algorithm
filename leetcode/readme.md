@@ -20,14 +20,18 @@
 |[33_search_in_rotated_search_array.py](33_search_in_rotated_search_array.py)|x|||
 |[34_first_and_last_position_in_sorted_array.py](34_first_and_last_position_in_sorted_array.py)|x|||
 |[35_search_insert_position.py](35_search_insert_position.py)|x|||
+|[43_multiply_strings.py](43_multiply_strings.py)|x|||
+|[48_rotate_image.py](48_rotate_image.py)|x|||
 |[49_group_anagrams.py](49_group_anagrams.py)|x|x|x|
 |[50_pow_x_n.py](50_pow_x_n.py)|x|||
 |[53_maximum_subarray.py](53_maximum_subarray.py)|x|||
+|[55_jump_game.py](55_jump_game.py)|x|||
 |[56_merge_intervals.py](56_merge_intervals.py)|x|x||
 |[58_length_of_last_word.py](58_length_of_last_word.py)|x|||
 |[59_spiral_matrix_ii.py](59_spiral_matrix_ii.py)|x|||
 |[62_unique_paths.py](62_unique_paths.py)|x|||
 |[64_minimum_path_sum.py](64_minimum_path_sum.py)|x|||
+|[67_add_binary.py](67_add_binary.py)|x|||
 |[69_sqrt_x.py](69_sqrt_x.py)|x|||
 |[70_climbing_stairs.py](70_climbing_stairs.py)|x|||
 |[75_sort_colors.py](75_sort_colors.py)|x|x||
@@ -59,6 +63,7 @@
 |[146_LRU_cache.py](146_LRU_cache.py)|x|||
 |[148_sort_list.py](148_sort_list.py)|x|x||
 |[155_min_stack.py](155_min_stack.py)|x|||
+|[160_intersection_two_linked_lists.py](160_intersection_two_linked_lists.py)|x|x||
 |[167_two_sum_II.py](167_two_sum_II.py)|x|||
 |[169_majority_element.py](169_majority_element.py)|x|||
 |[172_Factorial_Trailing_Zeroes.py](172_Factorial_Trailing_Zeroes.py)|x|||
@@ -108,6 +113,7 @@
 |[455_assign_cookies.py](455_assign_cookies.py)|x|x||
 |[476_number_component.py](476_number_component.py)|x|||
 |[482_license_key_formatting.py](482_license_key_formatting.py)|x|||
+|[497_random_point_in_non_overlappying_rectangles.py](497_random_point_in_non_overlappying_rectangles.py)|x|||
 |[500_keyword_rows.py](500_keyword_rows.py)|x|||
 |[501_find_mode_in_bst.py](501_find_mode_in_bst.py)|x|x||
 |[506_relative_ranks.py](506_relative_ranks.py)|x|||
@@ -147,4 +153,4 @@
 |[10000_test.py](10000_test.py)|x|||
 |[900000_question_tracker.py](900000_question_tracker.py)|x|x||
 
-Total: 145 questions
+Total: 151 questions
