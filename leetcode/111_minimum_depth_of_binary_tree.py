@@ -35,3 +35,38 @@ class Solution:
 Runtime: 896 ms, faster than 5.09% of Python3 online submissions for Minimum Depth of Binary Tree.
 Memory Usage: 53 MB, less than 36.62% of Python3 online submissions for Minimum Depth of Binary Tree.
 """
+
+# https://leetcode.com/problems/minimum-depth-of-binary-tree/
+"""
+Approach:
+Iterative approach
+
+"""
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+from collections import deque
+class Solution:
+    def minDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        q = deque([(root, 1)])
+        while q:
+            node, level = q.popleft()
+            if node:
+                if not node.left and not node.right:
+                    return level
+                q.append((node.left, level + 1))
+                q.append((node.right, level + 1))
+        
+        
+
+"""
+Runtime: 516 ms, faster than 74.80% of Python3 online submissions for Minimum Depth of Binary Tree.
+Memory Usage: 49 MB, less than 94.57% of Python3 online submissions for Minimum Depth of Binary Tree.
+"""
