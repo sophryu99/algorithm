@@ -94,3 +94,52 @@ class Solution:
 Runtime: 2138 ms, faster than 31.13% of Python3 online submissions for Longest Palindromic Substring.
 Memory Usage: 14.3 MB, less than 60.53% of Python3 online submissions for Longest Palindromic Substring.
 """
+
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        if not s:
+            return ""
+        if len(s) == 1:
+            return s
+        
+        def expandAroundCenter(s, left, right):
+            l, r = left, right
+            # Expand around center with the condition that the left and right index is within the range
+            # And the elements in the either end are the same
+            while l >= 0 and r < len(s):
+                if s[l] == s[r]:
+                    l -= 1
+                    r += 1
+                else:
+                    break
+            # Return the length
+            return r - l - 1
+                
+        longest = ""
+        start, end = 0, 0
+        for i in range(len(s) - 1):
+            # Expand around center for odd numbered strings
+            odd = expandAroundCenter(s, i, i)
+            # Expand around center for even numbered strings
+            even = expandAroundCenter(s, i, i + 1)
+            
+            # Get the longer result
+            longer = max(odd, even)
+            if longer > end - start:
+                start = i - (longer - 1) // 2
+                end = i + longer // 2
+            
+        return s[start:end + 1]      
+
+"""
+Runtime: 1364 ms, faster than 44.85% of Python3 online submissions for Longest Palindromic Substring.
+Memory Usage: 14.1 MB, less than 93.59% of Python3 online submissions for Longest Palindromic Substring."""          
+
+        
+                
+                    
+                
+                
+                    
+            
+       
