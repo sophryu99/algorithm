@@ -26,7 +26,6 @@ class Solution:
         root.left = self.sortedArrayToBST(nums[:median])
         root.right = self.sortedArrayToBST(nums[median + 1:])
         return root
-    
         
                 
             

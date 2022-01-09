@@ -27,3 +27,5 @@ class Solution:
 Runtime: 110 ms, faster than 20.62% of Python3 online submissions for Merge Two Binary Trees.
 Memory Usage: 15.5 MB, less than 55.64% of Python3 online submissions for Merge Two Binary Trees.
 """
+
+
