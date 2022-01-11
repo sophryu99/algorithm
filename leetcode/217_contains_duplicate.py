@@ -24,3 +24,16 @@ class Solution:
 Runtime: 136 ms, faster than 18.76% of Python3 online submissions for Contains Duplicate.
 Memory Usage: 21.5 MB, less than 6.79% of Python3 online submissions for Contains Duplicate.
 """       
+
+
+"""
+Compare the set of the array and the array's length
+"""
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        return len(set(nums)) != len(nums)
+
+"""
+Runtime: 592 ms, faster than 16.33% of Python3 online submissions for Contains Duplicate.
+Memory Usage: 25.9 MB, less than 34.06% of Python3 online submissions for Contains Duplicate.
+"""

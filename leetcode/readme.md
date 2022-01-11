@@ -50,13 +50,14 @@
 |[110_balanced_binary_tree.py](110_balanced_binary_tree.py)|x|x||
 |[111_minimum_depth_of_binary_tree.py](111_minimum_depth_of_binary_tree.py)|x|x|x|
 |[112_path_sum.py](112_path_sum.py)|x|x||
-|[113_pathsum2.py](113_pathsum2.py)||||
+|[113_pathsum2.py](113_pathsum2.py)|x|||
 |[118_pascals_triangle.py](118_pascals_triangle.py)|x|||
 |[119_pascals_triangle_ii.py](119_pascals_triangle_ii.py)|x|||
 |[120_triangle.py](120_triangle.py)|x|||
-|[121_best_time_to_sell_and_buy_stock.py](121_best_time_to_sell_and_buy_stock.py)|x|||
+|[121_best_time_to_sell_and_buy_stock.py](121_best_time_to_sell_and_buy_stock.py)|x|x||
 |[122_best_time_buy_and_sell_stock_ii.py](122_best_time_buy_and_sell_stock_ii.py)|x|||
 |[125_valid_palindrome.py](125_valid_palindrome.py)|x|||
+|[129_sum_root_to_leaf_numbers.py](129_sum_root_to_leaf_numbers.py)|x|x||
 |[136_single_number.py](136_single_number.py)|x|||
 |[143_reorder_list.py](143_reorder_list.py)|x|x||
 |[144_binary_tree_preorder_traversal.py](144_binary_tree_preorder_traversal.py)|x|x||
@@ -73,9 +74,10 @@
 |[199_binary_tree_right_side_view.py](199_binary_tree_right_side_view.py)|x|x||
 |[202_happy_number.py](202_happy_number.py)|x|||
 |[204_count_primes.py](204_count_primes.py)|x|x||
+|[207_course_schedule.py](207_course_schedule.py)|x|||
 |[214_shortest_palindrome.py](214_shortest_palindrome.py)|x|||
 |[215_kth_largest_element_in_an_array.py](215_kth_largest_element_in_an_array.py)|x|||
-|[217_contains_duplicate.py](217_contains_duplicate.py)|x|||
+|[217_contains_duplicate.py](217_contains_duplicate.py)|x|x||
 |[219_contains_duplicate_ii.py](219_contains_duplicate_ii.py)|x|||
 |[230_kth_smallest_element_in_bst.py](230_kth_smallest_element_in_bst.py)|x|x||
 |[231_power_of_two.py](231_power_of_two.py)|x|||
@@ -95,6 +97,7 @@
 |[290_word_pattern.py](290_word_pattern.py)|x|||
 |[322_coin_change.py](322_coin_change.py)|x|||
 |[326_power_of_three.py](326_power_of_three.py)|x|||
+|[338_counting_bits.py](338_counting_bits.py)|x|||
 |[342_power_of_four.py](342_power_of_four.py)|x|||
 |[344_reverse_string.py](344_reverse_string.py)|x|||
 |[347_top_k_element.py](347_top_k_element.py)|x|||
@@ -141,6 +144,7 @@
 |[705_design_hashset.py](705_design_hashset.py)|x|||
 |[706_design_hashmap.py](706_design_hashmap.py)|x|||
 |[733_floodfill.py](733_floodfill.py)|x|||
+|[735_asteroid_collision.py](735_asteroid_collision.py)|x|||
 |[744_smallest_letter_greater_than_target.py](744_smallest_letter_greater_than_target.py)|x|||
 |[860_lemonade_change.py](860_lemonade_change.py)|x|||
 |[876_middle_of_the_linked_list.py](876_middle_of_the_linked_list.py)|x|x||
@@ -159,4 +163,4 @@
 |[1971_find_if_path_exists_graph.py](1971_find_if_path_exists_graph.py)|x|||
 |[900000_question_tracker.py](900000_question_tracker.py)|x|x||
 
-Total: 157 questions
+Total: 161 questions
