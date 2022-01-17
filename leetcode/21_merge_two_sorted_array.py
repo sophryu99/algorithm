@@ -33,3 +33,29 @@ class Solution:
             tail = tail.next
         return dummy.next
         
+class Solution:
+    def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:   
+        merged = ListNode(0)
+        tail = merged
+        
+        while True:
+            # Continue appending to the ListNode until l1, l2 reaches the end element
+            if not l1:
+                tail.next = l2
+                break
+            if not l2:
+                tail.next = l1
+                break
+            # If l1.val is less than or equal to l2.val, add to the ListNode and rotate l1
+            if l1.val <= l2.val:
+                tail.next = l1
+                l1 = l1.next
+            else:
+                tail.next = l2
+                l2 = l2.next
+            # Rotate tail Node
+            tail = tail.next
+        
+        return (merged.next)
+        
+        
