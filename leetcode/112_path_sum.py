@@ -2,7 +2,7 @@
 
 """
 Approach:
-DFS
+DFS (or BFS)
 1. Traverse through binary tree and keep track of sum
 2. While traversing, if the sum equals targetSum, end traversing and return True
 3. Else False
