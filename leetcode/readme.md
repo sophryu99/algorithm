@@ -7,15 +7,17 @@
 |[5_longest_palindrome_substring.py](5_longest_palindrome_substring.py)|x|x|x|
 |[7_reverse_integer.py](7_reverse_integer.py)|x|x||
 |[11_container_with_most_water.py](11_container_with_most_water.py)|x|x||
+|[12_interger_to_roman.py](12_interger_to_roman.py)||||
 |[13_roman_to_integer.py](13_roman_to_integer.py)|x|||
 |[14_longest_common_prefix.py](14_longest_common_prefix.py)|x|x||
 |[15_3sum.py](15_3sum.py)|x|||
 |[17_letter_combinations_of_phone_numberr.py](17_letter_combinations_of_phone_numberr.py)|x|||
 |[19_remove_nth_node_from_linked_list.py](19_remove_nth_node_from_linked_list.py)|x|x||
 |[20_valid_parentheses.py](20_valid_parentheses.py)|x|||
-|[21_merge_two_sorted_array.py](21_merge_two_sorted_array.py)|x|x||
+|[21_merge_two_sorted_array.py](21_merge_two_sorted_array.py)|x|x|x|
 |[22_generate_parenthesis.py](22_generate_parenthesis.py)|x|||
 |[26_remove_duplicates_from_a_sorted_array.py](26_remove_duplicates_from_a_sorted_array.py)|x|||
+|[27_remove_element.py](27_remove_element.py)|x|||
 |[28_implement_strStr.py](28_implement_strStr.py)|x|||
 |[33_search_in_rotated_search_array.py](33_search_in_rotated_search_array.py)|x|||
 |[34_first_and_last_position_in_sorted_array.py](34_first_and_last_position_in_sorted_array.py)|x|||
@@ -33,7 +35,7 @@
 |[64_minimum_path_sum.py](64_minimum_path_sum.py)|x|||
 |[67_add_binary.py](67_add_binary.py)|x|||
 |[69_sqrt_x.py](69_sqrt_x.py)|x|||
-|[70_climbing_stairs.py](70_climbing_stairs.py)|x|||
+|[70_climbing_stairs.py](70_climbing_stairs.py)|x|x||
 |[75_sort_colors.py](75_sort_colors.py)|x|x||
 |[76_Minimum_Window_Substring.py](76_Minimum_Window_Substring.py)|x|||
 |[78_subsets.py](78_subsets.py)|x|||
@@ -66,10 +68,15 @@
 |[148_sort_list.py](148_sort_list.py)|x|x||
 |[155_min_stack.py](155_min_stack.py)|x|||
 |[160_intersection_two_linked_lists.py](160_intersection_two_linked_lists.py)|x|x||
+|[166_fraction_to_recurring_decimal.py](166_fraction_to_recurring_decimal.py)|x|||
 |[167_two_sum_II.py](167_two_sum_II.py)|x|||
+|[168_excel_sheet_column_title.py](168_excel_sheet_column_title.py)|x|||
 |[169_majority_element.py](169_majority_element.py)|x|||
+|[171_excel_sheet_column_number.py](171_excel_sheet_column_number.py)|x|||
 |[172_Factorial_Trailing_Zeroes.py](172_Factorial_Trailing_Zeroes.py)|x|||
 |[189_rotate_array.py](189_rotate_array.py)|x|||
+|[190_reverse_bits.py](190_reverse_bits.py)||||
+|[191_number_of_1_bits.py](191_number_of_1_bits.py)||||
 |[198_house_robber.py](198_house_robber.py)|x|||
 |[199_binary_tree_right_side_view.py](199_binary_tree_right_side_view.py)|x|x||
 |[202_happy_number.py](202_happy_number.py)|x|||
@@ -79,9 +86,13 @@
 |[215_kth_largest_element_in_an_array.py](215_kth_largest_element_in_an_array.py)|x|||
 |[217_contains_duplicate.py](217_contains_duplicate.py)|x|x||
 |[219_contains_duplicate_ii.py](219_contains_duplicate_ii.py)|x|||
+|[225_implement_stack_using_queues.py](225_implement_stack_using_queues.py)|x|||
+|[228_summary_ranges.py](228_summary_ranges.py)|x|||
 |[230_kth_smallest_element_in_bst.py](230_kth_smallest_element_in_bst.py)|x|x||
 |[231_power_of_two.py](231_power_of_two.py)|x|||
+|[232_implement_queue_using_stacks.py](232_implement_queue_using_stacks.py)|x|||
 |[234_palindrome_linked_list.py](234_palindrome_linked_list.py)|x|x||
+|[235_lowest_common_ancestor_ofa_bst.py](235_lowest_common_ancestor_ofa_bst.py)|x|x||
 |[237_delete_node_in_a_linked_list.py](237_delete_node_in_a_linked_list.py)|x|x||
 |[239_sliding_window_maximum.py](239_sliding_window_maximum.py)|x|||
 |[242_valid_anagram.py](242_valid_anagram.py)|x|||
@@ -100,6 +111,7 @@
 |[338_counting_bits.py](338_counting_bits.py)|x|||
 |[342_power_of_four.py](342_power_of_four.py)|x|||
 |[344_reverse_string.py](344_reverse_string.py)|x|||
+|[345_reverse_vowels_of_a_string.py](345_reverse_vowels_of_a_string.py)|x|||
 |[347_top_k_element.py](347_top_k_element.py)|x|||
 |[349_intersection_of_two_array.py](349_intersection_of_two_array.py)|x|||
 |[350_intersection_of_two_array_ii.py](350_intersection_of_two_array_ii.py)|x|||
@@ -110,10 +122,14 @@
 |[389_find_the_difference.py](389_find_the_difference.py)|x|||
 |[392_isSubSequence.py](392_isSubSequence.py)|x|||
 |[395_decode_string.py](395_decode_string.py)|x|||
+|[401_binary_watch.py](401_binary_watch.py)|x|||
 |[404_sum_of_left_leaves.py](404_sum_of_left_leaves.py)|x|x||
+|[405_convert_a_num_to_hexadecimal.py](405_convert_a_num_to_hexadecimal.py)|x|||
+|[409_longest_palindrome.py](409_longest_palindrome.py)|x|||
 |[412_fizz_buzz.py](412_fizz_buzz.py)|x|||
 |[414_third_maximum_number.py](414_third_maximum_number.py)|x|||
 |[415_add_strings.py](415_add_strings.py)|x|||
+|[424_longest_repeating_character_replacement.py](424_longest_repeating_character_replacement.py)|x|||
 |[441_arranging_coins.py](441_arranging_coins.py)|x|||
 |[452_minimum_number_of_arrows_to_burst_balloons.py](452_minimum_number_of_arrows_to_burst_balloons.py)|x|||
 |[455_assign_cookies.py](455_assign_cookies.py)|x|x||
@@ -163,4 +179,4 @@
 |[1971_find_if_path_exists_graph.py](1971_find_if_path_exists_graph.py)|x|||
 |[900000_question_tracker.py](900000_question_tracker.py)|x|x||
 
-Total: 161 questions
+Total: 177 questions
