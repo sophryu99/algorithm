@@ -169,6 +169,7 @@
 |[1004_max_consecutive_ones_iii.py](1004_max_consecutive_ones_iii.py)|x|||
 |[1041_robot_bounded_in_circle.py](1041_robot_bounded_in_circle.py)|x|||
 |[1046_last_stone_weight.py](1046_last_stone_weight.py)|x|||
+|[1143_longest_common_subsequences.py](1143_longest_common_subsequences.py)|x|||
 |[1161_maximum_level_of_sum_of_a_binary_tree.py](1161_maximum_level_of_sum_of_a_binary_tree.py)|x|x||
 |[1305_all_elements_in_bst.py](1305_all_elements_in_bst.py)|x|x||
 |[1396_design_underground_system.py](1396_design_underground_system.py)|x|||
@@ -179,4 +180,4 @@
 |[1971_find_if_path_exists_graph.py](1971_find_if_path_exists_graph.py)|x|||
 |[900000_question_tracker.py](900000_question_tracker.py)|x|x||
 
-Total: 177 questions
+Total: 178 questions
