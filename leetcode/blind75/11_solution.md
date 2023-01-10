@@ -12,7 +12,7 @@ The smaller height does not need to be compared as height[0] -> 1 * height[7] ->
 - Space complexity: O(1) -> no extra space used
 
 # Code
-```
+```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left, right = 0, len(height) - 1
@@ -29,10 +29,4 @@ class Solution:
                 right -= 1
         
         return maxwater
-
-
-
-
-
-
 ```
