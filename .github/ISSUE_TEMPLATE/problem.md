@@ -1,6 +1,6 @@
 ---
 name: Problem
-about: Describe this issue template's purpose here.
+about: Leetcode
 title: ''
 labels: ''
 assignees: ''
@@ -9,6 +9,12 @@ assignees: ''
 
 ## Approach
 
+1. 
 
-Time Complexity: 
-Space Complexity:
+
+```python3
+
+```
+
+- Time Complexity: 
+- Space Complexity:
